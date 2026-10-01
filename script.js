@@ -1,0 +1,7 @@
+const dialog=document.querySelector('#brief');
+document.querySelector('#open-brief').addEventListener('click',()=>dialog.showModal());
+document.querySelector('#close').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+function updateBrief(){const summary=`Olá, Guilherme! Quero conversar sobre uma landing page.\n\nMeu negócio: ${document.querySelector('#business').value.trim()}\nObjetivo: ${document.querySelector('#objective').value}\nDetalhes: ${document.querySelector('#message').value.trim()||'A definir na conversa.'}`;document.querySelector('#summary').value=summary;document.querySelector('#send-whatsapp').href='https://wa.me/5511997077994?text='+encodeURIComponent(summary);document.querySelector('#send-email').href='mailto:guilherme.fmouradev@outlook.com?subject='+encodeURIComponent('Orçamento de landing page')+'&body='+encodeURIComponent(summary)}
+document.querySelector('#brief-form').addEventListener('submit',e=>{e.preventDefault();updateBrief();document.querySelector('#brief-result').hidden=false;document.querySelector('#summary').focus();document.querySelector('#summary').select()});
+document.querySelector('#brief-form').addEventListener('input',()=>{if(!document.querySelector('#brief-result').hidden)updateBrief()});
