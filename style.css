@@ -7,3 +7,5 @@
 .carousel-controls>button{width:auto;min-width:76px;border-radius:4px;padding:0 12px;font-size:12px}.carousel-controls{gap:10px}
 
 .feature-motors:after,.motors:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,#000b)}.feature-motors>div,.motors>span{z-index:1}.feature-motors strong,.motors>span{color:#fff}
+
+.feature-dental:after,.dental:after{background:linear-gradient(transparent,#1e1e1dcc)}.feature-dental,.dental{background:#191918}.feature-dental img,.dental img{object-position:center 30%;object-fit:cover}.feature-dental strong,.dental>span{font-family:Georgia,serif;color:#ddc692;letter-spacing:1px}

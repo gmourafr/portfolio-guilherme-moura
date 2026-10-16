@@ -6,7 +6,7 @@ Portfólio estático com três projetos demonstrativos e um briefing de clientes
 - `index.html`: portfólio e contato.
 - `barbearia.html`: Moura Studio.
 - `concessionaria.html`: Só Veículos — conceito independente.
-- `clinica.html`: Moura Odontologia.
+- `clinica.html`: Clínica Viotto — conceito independente.
 - `briefing.html`: preferências visuais, resumo e envio pelo WhatsApp.
 
 ## Uso
