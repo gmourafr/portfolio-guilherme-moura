@@ -22,3 +22,5 @@
 .cover .cover-screen img{aspect-ratio:1265/712;height:auto;object-fit:contain}
 
 .cover-studio{background:radial-gradient(ellipse at 100% 0,#625347,transparent 65%),#282c29;color:#e4d2bb}.cover-studio .cover-title{text-transform:none;font-family:Georgia,serif;font-weight:400;letter-spacing:-.05em}.cover-studio .cover-foot{background:linear-gradient(transparent,#252a27)}
+
+.cover-studio{background:radial-gradient(ellipse at 100% 0,#394f86,transparent 65%),#182238;color:#dbe0e9}.cover-studio .cover-title{font-family:Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:-.06em}.cover-studio .cover-foot{background:linear-gradient(transparent,#172034)}
